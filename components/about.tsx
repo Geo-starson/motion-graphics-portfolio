@@ -8,7 +8,7 @@ export function About() {
         {/* Video Background */}
         <div className="absolute inset-0 w-full h-full">
           <video className="w-full h-full object-cover" autoPlay muted loop playsInline>
-            <source src="/Terrain.mp4" type="video/mp4" />
+            <source src="/video02.mp4" type="video/mp4" />
           </video>
           <div className="absolute inset-0 bg-black/50" />
         </div>
@@ -51,6 +51,7 @@ export function About() {
                 <img src="/tools/houdini.png" alt="Houdini" className="h-12 md:h-12 w-auto" />
                 <img src="/tools/karma.png" alt="Karma" className="h-12 md:h-12 w-auto" />
                 <img src="/tools/ae.png" alt="After Effects" className="h-12 md:h-12 w-auto" />
+                <img src="/tools/nuke.png" alt="Nuke" className="h-12 md:h-12 w-auto" />
               </div>
             </div>
           </div>

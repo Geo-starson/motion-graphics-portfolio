@@ -9,7 +9,7 @@ export function Hero() {
       {/* Video Background */}
       <div className="absolute inset-0 w-full h-full">
         <video className="w-full h-full object-cover" autoPlay muted loop playsInline>
-          <source src="/reel-video.mp4" type="video/mp4" />
+          <source src="/video01.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-black/40"></div>
       </div>
@@ -28,9 +28,9 @@ export function Hero() {
           <Button
             size="lg"
             className="bg-white text-black hover:bg-gray-200 text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 h-auto max-w-42"
-            onClick={() => window.open("https://youtu.be/3hXrq-lwlIA", "_blank")}
+            onClick={() => window.open("https://youtu.be/0-5DFbnbHwE", "_blank")}
           >
-            ShowReel
+            DemoReel
             <ArrowRight className="w-5 h-5 ml-3" />
           </Button>
         </div>
