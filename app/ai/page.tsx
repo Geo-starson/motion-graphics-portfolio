@@ -5,7 +5,7 @@ const aiProjects = [
   {
     id: 1,
     title: "One image, Full motion",
-    thumbnail: "/thumbnails/Gaussian&Houdini.png",
+    thumbnail: "/thumbnails/Gaussian_Houdini.png",
     videoUrl: "https://youtu.be/_5RyjAx2ra0",
     description: `
 One image, Full motion using Gaussian splatting with Houdini.
@@ -14,7 +14,7 @@ One image, Full motion using Gaussian splatting with Houdini.
   {
     id: 2,
     title: "LG-Global POV Contents",
-    thumbnail: "/thumbnails/lg_ai.jpg",
+    thumbnail: "/thumbnails/LG_AI.jpg",
     videoUrl: "https://www.youtube.com/shorts/hKf5k8ZIu_A",
     description: `
 LG-Global POV Series.
