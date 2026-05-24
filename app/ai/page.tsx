@@ -14,7 +14,7 @@ One image, Full motion using Gaussian splatting with Houdini.
   {
     id: 2,
     title: "LG-Global POV Contents",
-    thumbnail: "/thumbnails/LG_AI.jpg",
+    thumbnail: "/thumbnails/LG_AI_V02.jpg",
     videoUrl: "https://www.youtube.com/shorts/hKf5k8ZIu_A",
     description: `
 LG-Global POV Series.
