@@ -2,81 +2,88 @@ import { Navigation } from "@/components/navigation"
 import { ProjectGrid } from "@/components/project-grid"
 
 const artworkProjects = [
-  // 🔹 새로 추가될 영상 자리 (id 1, 2)
+  // 🔹 새로 추가된 항목
   {
     id: 1,
+    title: "doctor_strange",
+    thumbnail: "/thumbnails/doctor_strange.jpg",
+    videoUrl: "https://www.youtube.com/watch?v=ezfFX6SRa78",
+    description: "Houdini FX with AI",
+  },
+
+  // 🔹 기존 항목들 한 칸씩 뒤로 이동
+  {
+    id: 2,
     title: "Volcano Eruption",
     thumbnail: "/thumbnails/Volcano.jpg",
     videoUrl: "https://youtu.be/_ok_7sikdxw",
     description: "houdini Pyro and Lava Simulation",
-  },  
+  },
   {
-    id: 2,
+    id: 3,
     title: "Beer RnD",
     thumbnail: "/thumbnails/Beer.jpg",
     videoUrl: "https://youtu.be/nnzu7405a84",
     description: "houdini Flip and Foam with Solaris",
   },
   {
-    id: 3,
+    id: 4,
     title: "GolfBall in Grass",
     thumbnail: "/thumbnails/Golf.jpg",
     videoUrl: "https://youtu.be/iV4aGBiA6WQ",
     description: "houdini vellume grain and hair",
   },
-
-  // 🔹 기존 항목들 2단계씩 뒤로 이동
   {
-    id: 4,
+    id: 5,
     title: "HoudiniKarmaTest",
     thumbnail: "/thumbnails/meteor.jpg",
     videoUrl: "https://youtu.be/D1xgilvbAB8",
     description: "Houdini Pyro & Karma",
   },
   {
-    id: 5,
+    id: 6,
     title: "Cham's call render challenge",
     thumbnail: "/thumbnails/Cham's call render challenge.jpg",
     videoUrl: "https://youtu.be/aZBePEFoxX4",
     description: "Cham's call render challenge",
   },
   {
-    id: 6,
+    id: 7,
     title: "VolumeDeform",
     thumbnail: "/thumbnails/VolumeDeform.jpg",
     videoUrl: "https://youtu.be/aH0itb_TiMY",
     description: "Houdini Pyro Fx & Particle Sim",
   },
   {
-    id: 7,
+    id: 8,
     title: "VSL",
     thumbnail: "/thumbnails/Vsl.jpg",
     videoUrl: "https://www.youtube.com/watch?v=cmgeoZEbLHo",
     description: "MotionGraphic",
   },
   {
-    id: 8,
+    id: 9,
     title: "HoudiniOceanTest",
     thumbnail: "/thumbnails/HoudiniOceanTest.jpg",
     videoUrl: "https://youtu.be/LMD2DRNCvVs",
     description: "Redshift_Render",
   },
   {
-    id: 9,
+    id: 10,
     title: "XpOceanTest",
     thumbnail: "/thumbnails/XpWaterfall.jpg",
     videoUrl: "https://youtu.be/X86rWwQ1NO4",
     description: "Xparticle & Octane",
   },
   {
-    id: 10,
+    id: 11,
     title: "HoudiniCondensation",
     thumbnail: "/thumbnails/houdini_condensation.jpg",
     videoUrl: "https://youtu.be/mlMfH__Zd8s",
     description: "Houdini Particle Sim",
   },
   {
-    id: 11,
+    id: 12,
     title: "XpFlipSim",
     thumbnail: "/thumbnails/xparticle_flip.jpg",
     videoUrl: "https://youtu.be/99ua7VPc1no",

@@ -10,7 +10,7 @@ const navItems = [
   { name: "About", href: "/" },
   { name: "Commercial", href: "/commercial" },
   { name: "Artwork", href: "/artwork" },
-  { name: "AI", href: "/ai" },
+  { name: "AI / R&D", href: "/ai" },
   { name: "Lecture", href: "/lecture" },
 ]
 
@@ -36,29 +36,19 @@ export function Navigation() {
           {/* 가운데: 메뉴 */}
           <div className="absolute left-1/2 transform -translate-x-1/2 hidden md:flex space-x-10">
             {navItems.map((item) => {
-              const isComingSoon = item.name === "Lecture"; // ✅ AI 제외
-              const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
-                if (isComingSoon) {
-                  e.preventDefault();
-                  alert("coming soon.");
-                }
-              };
-
-                return (
-                  <Link
-                    key={item.name}
-                    href={item.href}
-                    onClick={handleClick}
-                    className={`text-sm font-medium transition-colors hover:text-white ${
-                      pathname === item.href ? "text-white" : "text-gray-300"
-                    }`}
-                  >
-                    {item.name}
-                  </Link>
-                );
-              })}
+              return (
+                <Link
+                  key={item.name}
+                  href={item.href}
+                  className={`text-sm font-medium transition-colors hover:text-white ${
+                    pathname === item.href ? "text-white" : "text-gray-300"
+                  }`}
+                >
+                  {item.name}
+                </Link>
+              )
+            })}
           </div>
-
 
           {/* 모바일 햄버거 메뉴 */}
           <div className="ham-btn md:hidden absolute right-0">
@@ -78,33 +68,20 @@ export function Navigation() {
           <div className="md:hidden border-t border-white/10 bg-black/80 backdrop-blur-md">
             <div className="py-4 space-y-2">
               {navItems.map((item) => {
-                const isComingSoon = item.name === "Lecture";
-
-                const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
-                  if (isComingSoon) {
-                    e.preventDefault(); // 이동 막기
-                    alert("coming soon.");
-                  } else {
-                    setIsOpen(false); // 정상 메뉴는 메뉴 닫기
-                  }
-                };
-
-
                 return (
                   <Link
                     key={item.name}
                     href={item.href}
-                    onClick={handleClick}
+                    onClick={() => setIsOpen(false)}
                     className={`block px-4 py-2 text-sm font-medium transition-colors hover:bg-white/10 ${
                       pathname === item.href ? "text-white bg-white/10" : "text-gray-300"
                     }`}
                   >
                     {item.name}
                   </Link>
-                );
+                )
               })}
             </div>
-
           </div>
         )}
       </div>

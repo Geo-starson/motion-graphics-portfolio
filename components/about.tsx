@@ -52,6 +52,7 @@ export function About() {
                 <img src="/tools/karma.png" alt="Karma" className="h-12 md:h-12 w-auto" />
                 <img src="/tools/ae.png" alt="After Effects" className="h-12 md:h-12 w-auto" />
                 <img src="/tools/nuke.png" alt="Nuke" className="h-12 md:h-12 w-auto" />
+                <img src="/tools/comfyui.png" alt="Comfyui" className="h-12 md:h-12 w-auto" />
               </div>
             </div>
           </div>

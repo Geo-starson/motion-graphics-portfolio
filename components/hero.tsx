@@ -28,7 +28,7 @@ export function Hero() {
           <Button
             size="lg"
             className="bg-white text-black hover:bg-gray-200 text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 h-auto max-w-42"
-            onClick={() => window.open("https://youtu.be/0-5DFbnbHwE", "_blank")}
+            onClick={() => window.open("https://youtu.be/oWlUJ88ODfg", "_blank")}
           >
             DemoReel
             <ArrowRight className="w-5 h-5 ml-3" />
