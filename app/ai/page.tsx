@@ -4,6 +4,15 @@ import { ProjectGrid } from "@/components/project-grid"
 const aiProjects = [
   {
     id: 1,
+    title: "Unreal Interactive Particle",
+    thumbnail: "/thumbnails/media_art.jpg",
+    videoUrl: "https://www.youtube.com/watch?v=xWxMG0UgdBI",
+    description: `
+My first Media art test
+`,
+  },
+  {
+    id: 2,
     title: "One image, Full motion",
     thumbnail: "/thumbnails/Gaussian_Houdini.png",
     videoUrl: "https://youtu.be/_5RyjAx2ra0",
@@ -12,7 +21,7 @@ One image, Full motion using Gaussian splatting with Houdini.
 `,
   },
   {
-    id: 2,
+    id: 3,
     title: "LG-Global POV Contents",
     thumbnail: "/thumbnails/LG_AI_V02.jpg",
     videoUrl: "https://www.youtube.com/shorts/hKf5k8ZIu_A",
@@ -21,7 +30,7 @@ LG-Global POV Series.
 `,
   },
   {
-    id: 3,
+    id: 4,
     title: "BloomXCircle Project Gucci Style",
     thumbnail: "/thumbnails/Gucci.png",
     description: `
@@ -35,7 +44,7 @@ Patterns & Motifs: Flora / Nature / Animal Motifs, Green–Red–Green Stripe, B
 `,
   },
   {
-    id: 4,
+    id: 5,
     title: "BloomXCircle Project Dior Style",
     thumbnail: "/thumbnails/Dior.png",
     description: `
@@ -49,7 +58,7 @@ Patterns & Motifs: Oblique Monogram, Toile de Jouy
 `,
   },
   {
-    id: 5,
+    id: 6,
     title: "BloomXCircle Project D&G Style",
     thumbnail: "/thumbnails/D&G.png",
     description: `
