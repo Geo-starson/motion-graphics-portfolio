@@ -7,7 +7,7 @@ const artworkProjects = [
     id: 1,
     title: "Ocean RnD",
     thumbnail: "/thumbnails/Ocean_RnD.png",
-    videoUrl: "https://youtu.be/PMCqEc9YFsc",
+    videoUrl: "https://youtu.be/1DqbHwh0TiA",
     description: "Sim Test",
   },
   {
