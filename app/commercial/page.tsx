@@ -107,6 +107,13 @@ const commercialProjects = [
     videoUrl: "https://youtu.be/2BuR590JI4o",
     description: "Fx",
   },
+  {
+    id: 16,
+    title: "Jongno",
+    thumbnail: "/thumbnails/Jongno.png",
+    videoUrl: "https://youtu.be/CC81Zd9exVM",
+    description: "Modeling, Lookdev, Anim(Main 캐릭터 제외), Fx, Comp",
+  },
 ]
 
 export default function CommercialPage() {
